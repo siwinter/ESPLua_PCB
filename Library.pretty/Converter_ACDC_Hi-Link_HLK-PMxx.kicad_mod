@@ -1,0 +1,206 @@
+(footprint "Converter_ACDC_Hi-Link_HLK-PMxx"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ACDC-Converter, 3W, Hi-Link, HLK-PMxx, THT (Script generated with StandardBox.py) (https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%973W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%913W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf)")
+	(tags "ACDC-Converter 3W THT Hi-Link board mount module")
+	(property "Reference" "REF**"
+		(at -1.66 -9.79 0)
+		(layer "F.SilkS")
+		(uuid "cec8641c-83da-4e4d-988f-63244836c677")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_ACDC_Hi-Link_HLK-PMxx"
+		(at 14.54 15 0)
+		(layer "F.Fab")
+		(uuid "f571f2ce-ca34-43b6-81b1-e1080b7b3f80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56d066f1-ab64-44ea-a7f7-8a884c5cab31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "599254cf-9036-4a36-b5f4-2abeb9c59590")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.16 -9.05)
+		(end -1.16 -9.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad3e70af-ffbb-4398-bae1-d7f8a44d14b4")
+	)
+	(fp_line
+		(start -4.16 -6.05)
+		(end -4.16 -9.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f897bfcc-0446-4dff-91b2-02cbd7432b8e")
+	)
+	(fp_line
+		(start -3.92 -8.81)
+		(end -3.92 13.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d53db06a-4c35-4fdf-b254-0bce52bbdeb1")
+	)
+	(fp_line
+		(start -3.92 -8.81)
+		(end 3.9 -8.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0313947d-37ab-4cfb-a0e4-4cfb95b46add")
+	)
+	(fp_line
+		(start -3.92 13.81)
+		(end 3.9 13.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a88f8bff-e196-4a30-87e9-cabac106627d")
+	)
+	(fp_line
+		(start 3.9 -8.81)
+		(end 3.9 13.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a659381-d295-4098-aa66-9bd6332c2e16")
+	)
+	(fp_line
+		(start -4.12 -9.01)
+		(end -4.12 14.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3e82ab7-6ec1-4366-9ce2-0feac30f6154")
+	)
+	(fp_line
+		(start -4.12 14.01)
+		(end 4 14.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2891677-c112-44aa-a912-1c22660282af")
+	)
+	(fp_line
+		(start 4 -9.01)
+		(end -4.12 -9.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5143d091-a156-4b1f-96fa-68f5df7029cf")
+	)
+	(fp_line
+		(start 4 14.01)
+		(end 4 -9.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0eeb5499-5821-426d-a014-7a67863f17a5")
+	)
+	(fp_poly
+		(pts
+			(xy -2.86 -6.75) (xy -2.86 12.75) (xy 2.94 12.75) (xy 2.94 -7.75) (xy -1.86 -7.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8d211e28-4c38-426b-9b64-fe3d84f58d9b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.54 2.5 0)
+		(layer "F.Fab")
+		(uuid "e41a3048-0e66-4dbf-9d0b-507acd7e77a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 -5)
+		(size 1.7 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72dbb994-275f-4c40-9373-543be9c379e2")
+	)
+	(pad "2" thru_hole oval
+		(at 0 10)
+		(size 1.7 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c89bb01e-5fd3-4d74-a370-b0e274a7179a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_Hi-Link_HLK-PMxx.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
